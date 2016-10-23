@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="gamex86" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin\Debug\gamex86" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Debug\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin\Release\gamex86" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="..\..\..\code\game\g_ai.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\game\g_chase.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\game\g_cmds.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\game\g_combat.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\game\g_func.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\game\g_items.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\game\g_local.h" />
+		<Unit filename="..\..\..\code\game\g_main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\game\g_misc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\game\g_monster.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\game\g_phys.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\game\g_save.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\game\g_spawn.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\game\g_svcmds.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\game\g_target.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\game\g_trigger.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\game\g_turret.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\game\g_utils.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\game\g_weapon.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\game\game.h" />
+		<Unit filename="..\..\..\code\game\m_actor.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\game\m_actor.h" />
+		<Unit filename="..\..\..\code\game\m_berserk.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\game\m_berserk.h" />
+		<Unit filename="..\..\..\code\game\m_boss2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\game\m_boss2.h" />
+		<Unit filename="..\..\..\code\game\m_boss3.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\game\m_boss31.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\game\m_boss31.h" />
+		<Unit filename="..\..\..\code\game\m_boss32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\game\m_boss32.h" />
+		<Unit filename="..\..\..\code\game\m_brain.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\game\m_brain.h" />
+		<Unit filename="..\..\..\code\game\m_chick.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\game\m_chick.h" />
+		<Unit filename="..\..\..\code\game\m_flash.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\game\m_flipper.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\game\m_flipper.h" />
+		<Unit filename="..\..\..\code\game\m_float.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\game\m_float.h" />
+		<Unit filename="..\..\..\code\game\m_flyer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\game\m_flyer.h" />
+		<Unit filename="..\..\..\code\game\m_gladiator.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\game\m_gladiator.h" />
+		<Unit filename="..\..\..\code\game\m_gunner.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\game\m_gunner.h" />
+		<Unit filename="..\..\..\code\game\m_hover.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\game\m_hover.h" />
+		<Unit filename="..\..\..\code\game\m_infantry.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\game\m_infantry.h" />
+		<Unit filename="..\..\..\code\game\m_insane.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\game\m_insane.h" />
+		<Unit filename="..\..\..\code\game\m_medic.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\game\m_medic.h" />
+		<Unit filename="..\..\..\code\game\m_move.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\game\m_mutant.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\game\m_mutant.h" />
+		<Unit filename="..\..\..\code\game\m_parasite.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\game\m_parasite.h" />
+		<Unit filename="..\..\..\code\game\m_player.h" />
+		<Unit filename="..\..\..\code\game\m_rider.h" />
+		<Unit filename="..\..\..\code\game\m_soldier.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\game\m_soldier.h" />
+		<Unit filename="..\..\..\code\game\m_supertank.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\game\m_supertank.h" />
+		<Unit filename="..\..\..\code\game\m_tank.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\game\m_tank.h" />
+		<Unit filename="..\..\..\code\game\p_client.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\game\p_hud.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\game\p_trail.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\game\p_view.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\game\p_weapon.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\qshared\anorms.h" />
+		<Unit filename="..\..\..\code\qshared\q_math.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\qshared\q_shared.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\qshared\q_shared.h" />
+		<Unit filename="..\..\..\code\qshared\surfaceflags.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

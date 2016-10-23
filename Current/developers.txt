@@ -1,0 +1,28 @@
+===============
+DEVELOPER NOTES
+===============
+
+
+Current compilation method supported: MinGW / MSYS
+
+IMPORTANT! You MUST have LibDev included until I can get bugs worked out regarding using newer libraries/etc...
+
+Compilation Instructions:
+
+1. At the MSYS prompt cd yourself into the main directory of this source code.
+2. Type in make
+3. Sit back and relax :P
+
+
+Important Information:
+
+This uses a compilation of libraries and headers which I have put together called LibDev, which is available on SVN and
+sometime on the web, hopefully via a dedicated Wiki article.
+
+
+LibDev Installation:
+
+1. Obtain the LibDev from SVN or (in the future) via Wiki article.
+2. Create a directory in drive C (if other drive letters, then you must edit Makefile where /c/LibDev and change to /[drive letter without colon]/LibDev.
+3. Copy or move all contents downloaded of LibDev excluding the whole directory name itself into the newly created folder.
+4. Your done :)

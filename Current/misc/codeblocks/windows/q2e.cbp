@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="q2e" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin\Debug\q2e" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Debug\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin\Release\q2e" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="..\..\..\code\client\cdaudio.h" />
+		<Unit filename="..\..\..\code\client\cinematic.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\client\cinematic.h" />
+		<Unit filename="..\..\..\code\client\cl_demo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\client\cl_draw.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\client\cl_effects.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\client\cl_ents.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\client\cl_input.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\client\cl_keys.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\client\cl_load.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\client\cl_localents.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\client\cl_main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\client\cl_parse.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\client\cl_particles.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\client\cl_predict.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\client\cl_screen.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\client\cl_tempents.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\client\cl_view.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\client\client.h" />
+		<Unit filename="..\..\..\code\client\console.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\client\console.h" />
+		<Unit filename="..\..\..\code\client\input.h" />
+		<Unit filename="..\..\..\code\client\qal.h" />
+		<Unit filename="..\..\..\code\client\render.h" />
+		<Unit filename="..\..\..\code\client\s_dma.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\client\s_local.h" />
+		<Unit filename="..\..\..\code\client\s_sfx.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\client\s_stream.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\client\sound.h" />
+		<Unit filename="..\..\..\code\client\ui.h" />
+		<Unit filename="..\..\..\code\client\video.h" />
+		<Unit filename="..\..\..\code\game\m_flash.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\qcommon\cmd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\qcommon\cmodel.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\qcommon\common.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\qcommon\crc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\qcommon\cvar.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\qcommon\editor.h" />
+		<Unit filename="..\..\..\code\qcommon\filesystem.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\qcommon\md4.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\qcommon\memory.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\qcommon\net_chan.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\qcommon\net_msg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\qcommon\parser.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\qcommon\pmove.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\qcommon\qcommon.h" />
+		<Unit filename="..\..\..\code\qcommon\qfiles.h" />
+		<Unit filename="..\..\..\code\qshared\anorms.h" />
+		<Unit filename="..\..\..\code\qshared\q_math.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\qshared\q_shared.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\qshared\q_shared.h" />
+		<Unit filename="..\..\..\code\qshared\surfaceflags.h" />
+		<Unit filename="..\..\..\code\render\glext.h" />
+		<Unit filename="..\..\..\code\render\palette.h" />
+		<Unit filename="..\..\..\code\render\qgl.h" />
+		<Unit filename="..\..\..\code\render\r_alias.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\render\r_backend.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\render\r_batch.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\render\r_debug.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\render\r_decal.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\render\r_gl.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\render\r_interaction.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\render\r_light.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\render\r_local.h" />
+		<Unit filename="..\..\..\code\render\r_main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\render\r_material.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\render\r_mesh.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\render\r_model.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\render\r_program.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\render\r_render.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\render\r_texture.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\render\r_video.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\render\r_world.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\server\server.h" />
+		<Unit filename="..\..\..\code\server\sv_ccmds.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\server\sv_ents.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\server\sv_game.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\server\sv_init.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\server\sv_main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\server\sv_send.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\server\sv_user.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\server\sv_world.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\ui\ui_advanced.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\ui\ui_audio.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\ui\ui_cinematics.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\ui\ui_controls.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\ui\ui_credits.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\ui\ui_defaults.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\ui\ui_demos.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\ui\ui_gameoptions.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\ui\ui_gotosite.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\ui\ui_ingame.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\ui\ui_loadgame.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\ui\ui_local.h" />
+		<Unit filename="..\..\..\code\ui\ui_main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\ui\ui_menu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\ui\ui_mods.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\ui\ui_multiplayer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\ui\ui_network.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\ui\ui_options.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\ui\ui_performance.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\ui\ui_playersetup.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\ui\ui_qmenu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\ui\ui_quit.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\ui\ui_savegame.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\ui\ui_singleplayer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\ui\ui_video.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\win32\alw_win.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\win32\alw_win.h" />
+		<Unit filename="..\..\..\code\win32\cd_win.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\win32\editor_win.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\win32\glw_win.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\win32\glw_win.h" />
+		<Unit filename="..\..\..\code\win32\in_win.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\win32\net_win.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\win32\qal_win.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\win32\qgl_win.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\win32\resource.h" />
+		<Unit filename="..\..\..\code\win32\sys_win.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\win32\vid_win.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\code\win32\wglext.h" />
+		<Unit filename="..\..\..\code\win32\winquake.h" />
+		<Unit filename="..\..\q2e.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

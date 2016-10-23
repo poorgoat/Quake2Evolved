@@ -1,0 +1,728 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Client">
+      <UniqueIdentifier>{b1c8deb4-6889-40cf-b948-f4fa2db63ef4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server">
+      <UniqueIdentifier>{6ef460de-96d7-4bdf-a193-054ccb71cbaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Libraries">
+      <UniqueIdentifier>{49bb1675-9b10-4c67-8825-2d47f104cc78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\zLib">
+      <UniqueIdentifier>{90bc8a55-cc13-45da-8b22-8be1cfc4d4ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\Ogg">
+      <UniqueIdentifier>{63d19072-e2b5-40ef-ab19-2cd6b4fd0eeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\Vorbis">
+      <UniqueIdentifier>{1e90710e-2d2a-45f3-93f7-2a48d452be71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\OpenAL">
+      <UniqueIdentifier>{e671928c-7f97-4e99-87fc-c48c12aab789}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{2ecef7f7-8d58-4217-980f-63c9902f987d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared">
+      <UniqueIdentifier>{fb00abd2-73d0-49eb-b00e-1615559203f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Launcher">
+      <UniqueIdentifier>{a431ff63-523d-44ca-a7a5-a75260ab2de3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{0f3a6950-38d7-489a-a1cf-e1fa67b7b42b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render">
+      <UniqueIdentifier>{691413a5-cfec-4445-8618-bf71164ace0a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\code\client\cinematic.c">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\client\cl_demo.c">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\client\cl_draw.c">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\client\cl_effects.c">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\client\cl_ents.c">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\client\cl_input.c">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\client\cl_keys.c">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\client\cl_load.c">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\client\cl_localents.c">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\client\cl_main.c">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\client\cl_parse.c">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\client\cl_particles.c">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\client\cl_predict.c">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\client\cl_screen.c">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\client\cl_tempents.c">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\client\cl_view.c">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\client\console.c">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\client\s_dma.c">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\client\s_sfx.c">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\client\s_stream.c">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\server\sv_ccmds.c">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\server\sv_ents.c">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\server\sv_game.c">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\server\sv_init.c">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\server\sv_main.c">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\server\sv_send.c">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\server\sv_user.c">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\server\sv_world.c">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\zlib\adler32.c">
+      <Filter>Libraries\zLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\zlib\compress.c">
+      <Filter>Libraries\zLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\zlib\crc32.c">
+      <Filter>Libraries\zLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\zlib\deflate.c">
+      <Filter>Libraries\zLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\zlib\gzio.c">
+      <Filter>Libraries\zLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\zlib\infback.c">
+      <Filter>Libraries\zLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\zlib\inffast.c">
+      <Filter>Libraries\zLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\zlib\inflate.c">
+      <Filter>Libraries\zLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\zlib\inftrees.c">
+      <Filter>Libraries\zLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\zlib\ioapi.c">
+      <Filter>Libraries\zLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\zlib\trees.c">
+      <Filter>Libraries\zLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\zlib\uncompr.c">
+      <Filter>Libraries\zLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\zlib\unzip.c">
+      <Filter>Libraries\zLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\zlib\zip.c">
+      <Filter>Libraries\zLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\zlib\zutil.c">
+      <Filter>Libraries\zLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\ogg\src\bitwise.c">
+      <Filter>Libraries\Ogg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\ogg\src\framing.c">
+      <Filter>Libraries\Ogg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\vorbis\lib\analysis.c">
+      <Filter>Libraries\Vorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\vorbis\lib\barkmel.c">
+      <Filter>Libraries\Vorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\vorbis\lib\bitrate.c">
+      <Filter>Libraries\Vorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\vorbis\lib\block.c">
+      <Filter>Libraries\Vorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\vorbis\lib\codebook.c">
+      <Filter>Libraries\Vorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\vorbis\lib\envelope.c">
+      <Filter>Libraries\Vorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\vorbis\lib\floor0.c">
+      <Filter>Libraries\Vorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\vorbis\lib\floor1.c">
+      <Filter>Libraries\Vorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\vorbis\lib\info.c">
+      <Filter>Libraries\Vorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\vorbis\lib\lookup.c">
+      <Filter>Libraries\Vorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\vorbis\lib\lpc.c">
+      <Filter>Libraries\Vorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\vorbis\lib\lsp.c">
+      <Filter>Libraries\Vorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\vorbis\lib\mapping0.c">
+      <Filter>Libraries\Vorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\vorbis\lib\mdct.c">
+      <Filter>Libraries\Vorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\vorbis\lib\psy.c">
+      <Filter>Libraries\Vorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\vorbis\lib\registry.c">
+      <Filter>Libraries\Vorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\vorbis\lib\res0.c">
+      <Filter>Libraries\Vorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\vorbis\lib\sharedbook.c">
+      <Filter>Libraries\Vorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\vorbis\lib\smallft.c">
+      <Filter>Libraries\Vorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\vorbis\lib\synthesis.c">
+      <Filter>Libraries\Vorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\vorbis\lib\vorbisenc.c">
+      <Filter>Libraries\Vorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\vorbis\lib\vorbisfile.c">
+      <Filter>Libraries\Vorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\vorbis\lib\window.c">
+      <Filter>Libraries\Vorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\qcommon\cmd.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\qcommon\cmodel.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\qcommon\common.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\qcommon\crc.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\qcommon\cvar.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\qcommon\filesystem.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\qcommon\md4.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\qcommon\memory.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\qcommon\net_chan.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\qcommon\net_msg.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\qcommon\parser.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\qcommon\pmove.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\game\m_flash.c">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\qshared\q_math.c">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\qshared\q_shared.c">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\win32\alw_win.c">
+      <Filter>Launcher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\win32\cd_win.c">
+      <Filter>Launcher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\win32\editor_win.c">
+      <Filter>Launcher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\win32\glw_win.c">
+      <Filter>Launcher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\win32\in_win.c">
+      <Filter>Launcher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\win32\net_win.c">
+      <Filter>Launcher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\win32\qal_win.c">
+      <Filter>Launcher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\win32\qgl_win.c">
+      <Filter>Launcher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\win32\sys_win.c">
+      <Filter>Launcher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\win32\vid_win.c">
+      <Filter>Launcher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\ui\ui_advanced.c">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\ui\ui_audio.c">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\ui\ui_cinematics.c">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\ui\ui_controls.c">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\ui\ui_credits.c">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\ui\ui_defaults.c">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\ui\ui_demos.c">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\ui\ui_gameoptions.c">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\ui\ui_gotosite.c">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\ui\ui_ingame.c">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\ui\ui_loadgame.c">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\ui\ui_main.c">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\ui\ui_menu.c">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\ui\ui_mods.c">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\ui\ui_multiplayer.c">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\ui\ui_network.c">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\ui\ui_options.c">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\ui\ui_performance.c">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\ui\ui_playersetup.c">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\ui\ui_qmenu.c">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\ui\ui_quit.c">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\ui\ui_savegame.c">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\ui\ui_singleplayer.c">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\ui\ui_video.c">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\render\r_alias.c">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\render\r_backend.c">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\render\r_batch.c">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\render\r_debug.c">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\render\r_decal.c">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\render\r_gl.c">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\render\r_interaction.c">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\render\r_light.c">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\render\r_main.c">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\render\r_material.c">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\render\r_mesh.c">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\render\r_model.c">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\render\r_program.c">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\render\r_render.c">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\render\r_texture.c">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\render\r_video.c">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\code\render\r_world.c">
+      <Filter>Render</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\code\client\client.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\code\client\console.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\code\client\input.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\code\client\qal.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\code\client\render.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\code\client\s_local.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\code\client\sound.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\code\client\ui.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\code\client\video.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\code\server\server.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\code\zlib\crc32.h">
+      <Filter>Libraries\zLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\code\zlib\deflate.h">
+      <Filter>Libraries\zLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\code\zlib\inffast.h">
+      <Filter>Libraries\zLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\code\zlib\inffixed.h">
+      <Filter>Libraries\zLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\code\zlib\inflate.h">
+      <Filter>Libraries\zLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\code\zlib\inftrees.h">
+      <Filter>Libraries\zLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\code\zlib\ioapi.h">
+      <Filter>Libraries\zLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\code\zlib\trees.h">
+      <Filter>Libraries\zLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\code\zlib\unzip.h">
+      <Filter>Libraries\zLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\code\zlib\zconf.h">
+      <Filter>Libraries\zLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\code\zlib\zip.h">
+      <Filter>Libraries\zLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\code\zlib\zlib.h">
+      <Filter>Libraries\zLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\code\zlib\zutil.h">
+      <Filter>Libraries\zLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\code\ogg\include\ogg\ogg.h">
+      <Filter>Libraries\Ogg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\code\ogg\include\ogg\os_types.h">
+      <Filter>Libraries\Ogg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\code\vorbis\lib\backends.h">
+      <Filter>Libraries\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\code\vorbis\lib\bitrate.h">
+      <Filter>Libraries\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\code\vorbis\lib\codebook.h">
+      <Filter>Libraries\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\code\vorbis\include\vorbis\codec.h">
+      <Filter>Libraries\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\code\vorbis\lib\codec_internal.h">
+      <Filter>Libraries\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\code\vorbis\lib\envelope.h">
+      <Filter>Libraries\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\code\vorbis\lib\modes\floor_all.h">
+      <Filter>Libraries\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\code\vorbis\lib\books\floor\floor_books.h">
+      <Filter>Libraries\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\code\vorbis\lib\highlevel.h">
+      <Filter>Libraries\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\code\vorbis\lib\lookup.h">
+      <Filter>Libraries\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\code\vorbis\lib\lookup_data.h">
+      <Filter>Libraries\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\code\vorbis\lib\lpc.h">
+      <Filter>Libraries\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\code\vorbis\lib\lsp.h">
+      <Filter>Libraries\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\code\vorbis\lib\masking.h">
+      <Filter>Libraries\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\code\vorbis\lib\mdct.h">
+      <Filter>Libraries\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\code\vorbis\lib\misc.h">
+      <Filter>Libraries\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\code\vorbis\lib\os.h">
+      <Filter>Libraries\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\code\vorbis\lib\psy.h">
+      <Filter>Libraries\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\code\vorbis\lib\modes\psych_11.h">
+      <Filter>Libraries\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\code\vorbis\lib\modes\psych_16.h">
+      <Filter>Libraries\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\code\vorbis\lib\modes\psych_44.h">
+      <Filter>Libraries\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\code\vorbis\lib\modes\psych_8.h">
+      <Filter>Libraries\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\code\vorbis\lib\registry.h">
+      <Filter>Libraries\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\code\vorbis\lib\books\coupled\res_books_stereo.h">
+      <Filter>Libraries\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\code\vorbis\lib\books\uncoupled\res_books_uncoupled.h">
+      <Filter>Libraries\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\code\vorbis\lib\modes\residue_16.h">
+      <Filter>Libraries\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\code\vorbis\lib\modes\residue_44.h">
+      <Filter>Libraries\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\code\vorbis\lib\modes\residue_44u.h">
+      <Filter>Libraries\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\code\vorbis\lib\modes\residue_8.h">
+      <Filter>Libraries\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\code\vorbis\lib\scales.h">
+      <Filter>Libraries\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\code\vorbis\lib\modes\setup_11.h">
+      <Filter>Libraries\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\code\vorbis\lib\modes\setup_16.h">
+      <Filter>Libraries\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\code\vorbis\lib\modes\setup_22.h">
+      <Filter>Libraries\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\code\vorbis\lib\modes\setup_32.h">
+      <Filter>Libraries\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\code\vorbis\lib\modes\setup_44.h">
+      <Filter>Libraries\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\code\vorbis\lib\modes\setup_44u.h">
+      <Filter>Libraries\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\code\vorbis\lib\modes\setup_8.h">
+      <Filter>Libraries\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\code\vorbis\lib\modes\setup_X.h">
+      <Filter>Libraries\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\code\vorbis\lib\smallft.h">
+      <Filter>Libraries\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\code\vorbis\include\vorbis\vorbisenc.h">
+      <Filter>Libraries\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\code\vorbis\include\vorbis\vorbisfile.h">
+      <Filter>Libraries\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\code\vorbis\lib\window.h">
+      <Filter>Libraries\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libs\openal\include\al.h">
+      <Filter>Libraries\OpenAL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libs\openal\include\alc.h">
+      <Filter>Libraries\OpenAL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libs\openal\include\efx-creative.h">
+      <Filter>Libraries\OpenAL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libs\openal\include\EFX-Util.h">
+      <Filter>Libraries\OpenAL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libs\openal\include\efx.h">
+      <Filter>Libraries\OpenAL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libs\openal\include\xram.h">
+      <Filter>Libraries\OpenAL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\code\qcommon\editor.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\code\qcommon\qcommon.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\code\qcommon\qfiles.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\code\qshared\anorms.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\code\qshared\q_shared.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\code\qshared\surfaceflags.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\code\win32\alw_win.h">
+      <Filter>Launcher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\code\win32\glw_win.h">
+      <Filter>Launcher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\code\win32\resource.h">
+      <Filter>Launcher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\code\win32\wglext.h">
+      <Filter>Launcher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\code\win32\winquake.h">
+      <Filter>Launcher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\code\ui\ui_local.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\code\render\glext.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\code\render\palette.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\code\render\qgl.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\code\render\r_local.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\q2e.ico">
+      <Filter>Resources</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\..\q2e.rc">
+      <Filter>Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
